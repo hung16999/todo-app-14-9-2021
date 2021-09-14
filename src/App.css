@@ -1,0 +1,25 @@
+.todo-app {
+  text-align: center;
+}
+
+.list-task {
+  width: 200px;
+  margin: auto;
+}
+
+.list-task p {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: solid 1px gray;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.task-completed span {
+  text-decoration: line-through;
+}
+
+button {
+  cursor: pointer;
+}
